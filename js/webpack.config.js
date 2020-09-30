@@ -61,7 +61,7 @@ module.exports = [
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls'],
+        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls', 'base/js/dialog'],
         plugins: plugins,
         mode: 'production'
     },
